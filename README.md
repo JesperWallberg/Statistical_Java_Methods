@@ -2,6 +2,50 @@
 
 Methods used to calculate mathematical statistical values.
 
+# Usage
+
+1. Add Stat.java to your project.
+2. Use the methods with ```Stat.methodName()```
+
+## Example
+
+### Factorial of 5 (5!)
+
+```java
+System.out.println(Stat.factorial(5));
+```
+
+```output
+>> 120
+```
+
+# Supported methods 
+
+### Factorial (n!)
+
+ ```Stat.factorial(n)```
+
+### Combinations (nCr)
+
+ ```Stat.nCr(n, r)```
+ 
+ ### Permutations (nPr)
+
+ ```Stat.nPr(n, r)```
+ 
+ ### Binomnial distribution 
+
+ ```Stat.binominalDist(k, n, p)```
+ 
+ ### Hypergeometric distribution
+
+ ```Stat.hyperDist(k, N, n, p)```
+ 
+ ### Poisson distribution
+
+ ```Stat.PoissonDist(k, u)```
+
+
 # Code snippets 
 
 ## Factorial

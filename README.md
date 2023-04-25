@@ -1,2 +1,4 @@
 # Statistical_Java_Methods
-Mathematical Statistic Java Methods
+
+Methods used to calculate mathematical statistical values.
+
